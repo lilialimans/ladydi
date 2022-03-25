@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+.body {
+  font-size: 100%
+  background-image: image(textura-exportada);
+}
+                                 /* header*/
+
+/* Biografia */
+.Biografia {
+  display: flex;
+  flex-direction: column;
+  background-color: FFFFFF;
+  padding: 55px;
+}
+/* cabeçalho */
+.cabeçalho {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #111111;
+  text-align: right;
+}
+  /* titulobiografia */
+  .titulobiografia {
+    letter-spacing: 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 96px;
+    color: #111111;
+    padding-top: 55px;
+}
+
+.titulobiografia:hover {
+  letter-spacing: 10px;
+
+}
+/*imagemheader*/
+.imagemheader {
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+  /* DianaFrancesSpencer*/
+  .DianaFrancesSpencer {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #111111;
+    padding: 60px;
+}
+  /*pheader*/
+  .pheader {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    align-items:center;
+    text-align: center;
+    color: #111111;
+}
+
+                                  /*OBJETIVOS*/
+.objetivos {
+  display: flex;
+  flex-direction: row;
+  background-color: #F297A4;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+/*tituloobjetivos*/
+.tituloobjetivos {
+letter-spacing: 0px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 110px;
+text-align: left;
+width: 40%;
+color: #FFFFFF;
+}
+
+.tituloobjetivos:hover {
+letter-spacing: 10px;
+}
+/* pobjetivos*/
+.pobjetivos {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+text-align: left;
+float: right;
+width: 700px;
+height: 300px;
+color: #FFFFFF;
+}
+                          /* caracteristicas*/
+.imagemetexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+
+
+.caracteristicas {
+  display: flex;
+  flex-direction: column;
+  background-color: #111111;
+  justify-content: space-around;
+  padding: 55px;
+}
+
+/* pimagemcarascetristicas*/
+.pimagemcarascetristicas {
+  width: 475px;
+  height: 62px;
+  left: 86px;
+  top: 755px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+/* titulocaracteristicasfisicas*/
+.titulocaracteristicasfisicas {
+letter-spacing: 0px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 74px;
+color: #FFFFFF;
+text-align: left;
+}
+
+.titulocaracteristicasfisicas:hover {
+color: #F297A4;
+}
+/* pcaracteristicasfisicas*/
+.pcaracteristicasfisicas {
+width: 708px;
+height: 165px;
+left: 624px;
+top: 150px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+text-align: left;
+float: right;
+}
+
+
+                            /* Curiosidades */
+
+.Curiosidades {
+  padding: 55px;
+  background-color: #EFEEEE;
+  display: flex;
+  flex-direction: column;
+}
+  /* titulocuriosidades */
+.titulocuriosidades {
+  letter-spacing: 0px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 80px;
+  color: #111111;
+  padding-bottom: 55px;
+}
+
+.titulocuriosidades:hover {
+  letter-spacing: 10px;
+}
+  /*numero1*/
+.titulonumero {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+text-align: center;
+color: #EFEEEE;
+background-color: #F297A4;
+width: 110px;
+height: 110px;
+padding: 10px;
+margin-right: 30px;
+
+}
+  /*p1*/
+.paragrafos {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+color: #111111;
+text-align: left;
+width: 1250px;
+height: 72px;
+
+}
+
+.boxnumero {
+margin-bottom: 30px;
+display:flex;
+flex-direction: row;
+gap: 50px;
+align-items: center;
+
+}
+                                /* Galeria */
+
+.galeria {
+
+  background-color: #F297A4;
+
+}
+/* titulogaleria */
+.titulogaleria {
+  letter-spacing: 0px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 96px;
+  color: #ffffff;
+  padding-top: 55px;
+}
+
+.titulogaleria:hover {
+  letter-spacing: 10px;
+}
+.imagensgaleria {
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+align-items: center;
+padding: 40px;
+}
+
+.dianahorizontal {
+  width: 45%;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.00));
+}
+
+.dianahorizontal:hover {
+  width: 50%;
+  filter: drop-shadow(15px 13px 4px rgba(17, 17, 17, 0.22));
+}
+
+.dianavertical {
+  width: 25%;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.00));
+}
+
+.dianavertical:hover {
+  width: 30%;
+  filter: drop-shadow(15px 13px 4px rgba(17, 17, 17, 0.22));
+}
+
+                            /* footer */
+
+.footer {
+  background-color: #111111;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+color: #FFFFFF;
+text-align: center;
+padding: 20px;
+}
